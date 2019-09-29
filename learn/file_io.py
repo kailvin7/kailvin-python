@@ -13,12 +13,12 @@ print "你输入的内容是：",str
 test_name = r"E:\pycharm\learn\for range.py"
 test_fo = open(test_name,"a+")
 test_file = test_fo.read()
-print test_file
+print(test_file)
 test_fo.close()
 test_fo = open(test_name,"a+")
 test_fo.write("\nThis is write test for practicing\n")
 test_fo.close()
 test_fo = open(test_name,"a+")
 test_file = test_fo.read()
-print test_file
+print(test_file)
 test_fo.close()
